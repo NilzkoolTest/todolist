@@ -30,12 +30,12 @@ The ToDo List application is a web-based tool designed to help users organize an
 - **Categorization:** Organize tasks into predefined categories (cat1, cat2, cat3). 🗂️
 - **Status Tracking:** Monitor task progress with status options (To Do, In Progress, Done). 📊
 - **Filtering and Searching:** Filter tasks by category and status, and search by title. 🔍
-- **Email Notifications**: Sends email when task is created. 📧
+- **Email Notifications:** Email notification logic exists but is currently disabled/commented out in the task creation flow (see app/Http/Controllers/TaskController.php). 📧
 
 ## Tech Stack 💻
 
 - **Backend:** PHP 8.2, Laravel 12
-- **Frontend:** JavaScript, Bootstrap, Tailwind CSS, Next.js
+- **Frontend:** JavaScript, Tailwind CSS
 - **Database:** SQLite
 - **Build Tools:** Vite
 
@@ -43,7 +43,7 @@ The ToDo List application is a web-based tool designed to help users organize an
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/phobo22/todolist.git
+    git clone https://github.com/NilzkoolTest/todolist.git
     cd todolist
     ```
 2.  **Install PHP dependencies:**
@@ -184,11 +184,11 @@ This project is licensed under the MIT License - see the [LICENSE](https://opens
 
 ## Important Links 🔗
 
-- Repository: [https://github.com/phobo22/todolist](https://github.com/phobo22/todolist)
+- Repository: [https://github.com/NilzkoolTest/todolist](https://github.com/NilzkoolTest/todolist)
 
 ## Footer <footer>
 
-ToDoList - [https://github.com/phobo22/todolist](https://github.com/phobo22/todolist) by [phobo22](https://github.com/phobo22).
+ToDoList - [https://github.com/NilzkoolTest/todolist](https://github.com/NilzkoolTest/todolist) by [NilzkoolTest](https://github.com/NilzkoolTest).
 
 ⭐️ Feel free to fork, star, and contribute! 📝
 
